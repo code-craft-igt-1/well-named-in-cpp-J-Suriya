@@ -24,6 +24,8 @@ FetchContent_MakeAvailable(googletest)
 # Enable testing
 enable_testing()
 
+add_executable(ColorCoder main.cpp ColorCoder.cpp)
+
 # Add test executable
 add_executable(ColorCoderTests test_ColorCoder.cpp ColorCoder.cpp)
 
